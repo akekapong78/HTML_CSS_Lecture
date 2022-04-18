@@ -1,0 +1,41 @@
+
+
+#external {
+    background-color: black;
+    background-color: #CB2E0D;
+    color: yellow;
+    width: 300px;
+    height: 150px;
+    border : 3px solid green
+}
+
+#fonttest {
+
+    /* copy from Google Font */
+    font-family: 'Kanit', sans-serif;
+    color: bisque;
+    font-size: large;
+    background-color: #CB2E0D;
+    border: 1em dotted black;
+}
+
+#img-test {
+
+    width: 600px;
+    height: 600px;
+    background-image: url(img/witchs-house-1635770_640.jpg);
+    background-repeat: no-repeat; 
+    /* ไม่ืทำรูปภาพซ้ำ กรณีภาพเล็กกว่า block */
+    background-color: blue;
+    /* ขยายภาพ ให้เต็ม -> cover */
+    /* background-size: cover;
+    background-position: 50% 50% ; */
+}
+
+
+/* การ Reset ค่า Browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
